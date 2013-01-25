@@ -1,0 +1,14 @@
+<h2>New list</h2>
+
+<div class="form-horizontal">
+  <div class="control-group">
+    <label for="list-id" class="control-label">List name</label>
+    <div class="controls">
+      {{view Ember.TextField valueBinding="name" id="name" action="create"}}
+    </div>
+  </div>
+  <div class="form-actions">
+    <input {{action create}} type="submit" class="btn btn-primary" value="Create List" />
+    <input {{action cancel}} type="submit" class="btn" value="Cancel" />
+  </div>
+</div>
