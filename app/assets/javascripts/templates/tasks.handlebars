@@ -2,14 +2,14 @@
   <tr>
     <th>Done</th>
     <th>Task</th>
-    <th>Estimate (minutes)</th>
+    <th>Estimate to complete (minutes)</th>
   </tr>
 
   {{#each controller}}
     <tr>
       <td>{{view Ember.Checkbox checkedBinding="isDone"}}</td>
       <td>{{name}}</td>
-      <td>{{minutesEstimatedToComplete}}</td>
+      <td>{{humanTimeLength minutesEstimatedToComplete}}</td>
     </tr>
   {{else}}
     <tr>
