@@ -1,0 +1,19 @@
+<table class="table table-striped table-hover">
+  <tr>
+    <th>Done</th>
+    <th>Task</th>
+    <th>Estimate (minutes)</th>
+  </tr>
+
+  {{#each controller}}
+    <tr>
+      <td>{{view Ember.Checkbox checkedBinding="isDone"}}</td>
+      <td>{{name}}</td>
+      <td>{{minutesEstimatedToComplete}}</td>
+    </tr>
+  {{else}}
+    <tr>
+      <td colspan="3">No tasks, yet.</td>
+    </tr>
+  {{/each}}
+</table>
