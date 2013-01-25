@@ -17,5 +17,7 @@
 //= require ember-data
 //= require_self
 //= require todo
+
 Todo = Ember.Application.create();
+
 //= require_tree .
