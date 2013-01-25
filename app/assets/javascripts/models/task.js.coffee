@@ -18,6 +18,7 @@ Todo.Task.FIXTURES = [
   {
     id: 11
     name: 'Make dinner'
+    isDone: true
     minutesEstimatedToComplete: 20
   }
 
