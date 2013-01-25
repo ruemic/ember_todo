@@ -8,6 +8,7 @@ gem 'rails', '3.2.11'
 gem 'sqlite3'
 gem 'ember-rails', github: 'emberjs/ember-rails'
 gem 'bootstrap-sass'
+gem 'compass-rails'
 
 
 # Gems used only for assets and not required
