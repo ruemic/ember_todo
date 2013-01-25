@@ -13,13 +13,13 @@ Todo.Task.FIXTURES = [
     id: 10
     name: 'Clean the house'
     minutesEstimatedToComplete: 60
-  },
+  }
 
   {
     id: 11
     name: 'Make dinner'
     minutesEstimatedToComplete: 20
-  },
+  }
 
 
   {
@@ -27,7 +27,7 @@ Todo.Task.FIXTURES = [
     name: 'Write a todo app in Ember'
     isDone: false # ...but soon! ;-)
     minutesEstimatedToComplete: (60 * 2)
-  },
+  }
 
   {
     id: 21

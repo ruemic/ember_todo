@@ -19,4 +19,10 @@ Todo.List.FIXTURES = [
     name: 'Work',
     tasks: [20, 21]
   }
+
+  {
+    id: 3
+    name: 'Other',
+    tasks: []
+  }
 ]
