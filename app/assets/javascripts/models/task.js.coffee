@@ -5,6 +5,10 @@ Todo.Task = DS.Model.extend
   isDone: DS.attr 'boolean'
   minutesEstimatedToComplete: DS.attr 'number'
 
+  minutesLeftToComplete: Ember.computed ->
+    if @get('isDone') is true then 0 else @get('minutesEstimatedToComplete')
+  .property('isDone', 'minutesEstimatedToComplete')
+
 
 
 

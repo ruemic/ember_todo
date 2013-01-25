@@ -1,7 +1,10 @@
 <ul class="nav nav-pills nav-stacked">
   {{#each list in controller}}
     <li>
-      {{#linkTo "list" list}}{{list.name}}{{/linkTo}}
+      {{#linkTo "list" list}}
+        {{list.name}}
+        <small class="time-to-complete">{{humanTimeLength list.minutesLeftToComplete}}</small>
+      {{/linkTo}}
     </li>
   {{/each}}
 </ul>
