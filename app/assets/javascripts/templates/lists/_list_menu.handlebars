@@ -1,0 +1,9 @@
+<h2>Your Lists</h2>
+
+<ul class="nav nav-pills nav-stacked">
+  {{#each list in controller}}
+    <li>
+      {{#linkTo "list" list}}{{list.name}}{{/linkTo}}
+    </li>
+  {{/each}}
+</ul>
