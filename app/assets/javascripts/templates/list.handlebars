@@ -1,2 +1,5 @@
 {{render "tasks/table" tasks}}
+<div class="actions">
+  <button class="btn btn-mini btn-danger" {{bindAttr disabled="isNotCompleted"}} {{action delete}}>Delete list</button>
+</div>
 {{outlet}}
