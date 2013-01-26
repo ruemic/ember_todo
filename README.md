@@ -10,8 +10,9 @@ to the REST adapter soon.
 
 
 == How to get started
-
-`rake db:create`
-`rake db:migrate`
-`rake db:seed`
-`rails s`
+```
+rake db:create
+rake db:migrate
+rake db:seed
+rails s
+```
