@@ -5,6 +5,7 @@ gem 'sqlite3'
 gem 'rails', '3.2.11'
 gem 'ember-rails', github: 'emberjs/ember-rails'
 gem 'strong_parameters'
+gem 'active_model_serializers'
 
 gem 'bootstrap-sass'
 gem 'compass-rails'
